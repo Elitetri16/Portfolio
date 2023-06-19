@@ -197,6 +197,9 @@ img {
 }
 
 /*===== HOME =====*/
+
+
+
 .home {
   position: relative;
   row-gap: 5rem;
@@ -206,6 +209,7 @@ img {
 .home__data {
   align-self: center;
 }
+
 
 .home__title {
   font-size: var(--h2-font-size);
@@ -251,6 +255,8 @@ img {
   
 }
 
+
+
 /*BUTTONS*/
 .button {
   display: inline-block;
@@ -272,6 +278,7 @@ img {
   row-gap: 2rem;
   text-align: center;
   color: #ffffff;
+  background-repeat: no-repeat;
   background-image: url("https://www.mediacutlet.com/wp-content/uploads/2018/03/web-background-comp.jpg");
 }
 
@@ -364,11 +371,11 @@ img {
   border-radius: .5rem;
 }
 
-/* ===== WORK =====*/
+/* ===== Achievements =====*/
 .work__container {
   background-image: url(https://wallpaperbat.com/img/302239-geometric-background-hd-new-network-connection-background-hd-dark.jpg);
   row-gap: 2rem;
-  background-size:110%;
+  background-size:100%;
   background-repeat: no-repeat;
   
 }
@@ -457,7 +464,9 @@ work__container bd-grid{
 @media screen and (min-width: 576px) {
   .home {
     padding: 4rem 0 2rem;
-    background-image: url(https://png.pngtree.com/png-clipart/20200713/ourlarge/pngtree-seamless-pattern-with-colorful-dots-on-transparent-black-background-png-image_2303109.jpg);
+    background-image: url(https://i.gifer.com/origin/e8/e8896ab986acb162dd11ac07f87df885.gif);
+background-size: 100%;
+background-repeat: no-repeat;
   }
   .home__social {
     padding-top: 0;
@@ -527,7 +536,9 @@ work__container bd-grid{
     color: #D12322;
   }
   .nav__toggle {
-    display: none;
+    display: flex;
+    color: black;
+
   }
   .nav__link {
     color: var(red);
@@ -577,6 +588,7 @@ work__container bd-grid{
     margin: 0 auto;
     height: 100%;
     background-image: url(https://cdn.bhdw.net/im/white-and-black-geometric-neural-pattern-wallpaper-82627_w635.webp);
+    background-size:100%;
 }
 
 .grid {
@@ -603,6 +615,7 @@ work__container bd-grid{
 
 .card_body {
     padding: 26px 20px 36px 20px;
+    
 }
 
 .card_title {
